@@ -1,0 +1,8 @@
+[package]
+name = "external_c"
+version = "0.1.0"
+authors = ["thibault <thibault.barbie@free.fr>"]
+build = "build.rs"
+
+[build-dependencies]
+cc = "1.0"
